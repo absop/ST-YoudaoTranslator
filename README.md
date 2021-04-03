@@ -81,7 +81,7 @@ Among them:
 
 
 ## Advanced Features
-To improve translation results of **youdao translator**, you can go [HERE](https://ai.youdao.com/) to register and obtain a app-key for **youdao translator**, then fill them in the Settings file. If you are a new customer of Youdao, they might give you a discount of $￥100$.
+To improve translation results of **youdao translator**, you can go [HERE](https://ai.youdao.com/) to register and obtain a app-key for **youdao translator**, then fill them in the Settings file. If you are a new customer of Youdao, they might give you a discount of ￥100.
 
 You can find a lot about this on the Internet.
 
