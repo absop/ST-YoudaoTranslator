@@ -1,0 +1,22 @@
+[
+    {
+        "keys": ["ctrl+shift+y", "ctrl+t"],
+        "command": "youdao_translation",
+        "args": {"action": "translate", "from_keyboard": true}
+    },
+    {
+        "keys": ["ctrl+shift+y", "ctrl+c"],
+        "command": "youdao_translation",
+        "args": {"action": "copy"}
+    },
+    {
+        "keys": ["ctrl+shift+y", "ctrl+i"],
+        "command": "youdao_translation",
+        "args": {"action": "insert"}
+    },
+    {
+        "keys": ["ctrl+shift+y", "ctrl+r"],
+        "command": "youdao_translation",
+        "args": {"action": "replace"}
+    }
+]

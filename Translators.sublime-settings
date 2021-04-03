@@ -1,0 +1,32 @@
+{
+    "separator": "|\\\n\f\t /:,;<>.+=-_~`'\"!@#$%^&*({[（《：；·，。—￥？！……‘’“”、》）]})",
+
+    "auto_select": true,
+
+    // options: "phantom", "popup" and "view"
+    "style": "popup",
+
+    // path to css file for mdpopups
+    "mdpopups.css": "Packages/Translators/mdpopups.css",
+
+    "caption": "Translators",
+
+    "youdao": {
+        "enabled": true,
+        "caption": "有道翻译",
+        "from": "auto",
+        "to": "auto",
+        "api_url": "http://openapi.youdao.com/api",
+        "app_id": "",
+        "app_key": "",
+    },
+
+    "google": {
+        // not implemented!
+        "enabled": false,
+        "caption": "Google",
+        "api_url": "",
+        "app_id": "",
+        "app_key": "",
+    }
+}

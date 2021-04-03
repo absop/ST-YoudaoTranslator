@@ -1,0 +1,15 @@
+[
+    {
+        "caption": "Preferences: Translators Settings",
+        "command": "edit_settings",
+        "args": {
+          "base_file": "${packages}/Translators/Translators.sublime-settings",
+          "default": "[\n\t$0\n]\n"
+          }
+    },
+    {
+        "caption": "Translators: Toggle debug",
+        "command": "translators",
+        "args": {"action": "toggle debug"}
+    }
+]
