@@ -90,6 +90,6 @@ The following image shows a sample of translation with `app-key`, you can see th
 
 
 ## TODO
-- [ ] Added copy and replace button for `explains`.
+- [ ] Add checkbox for every `translation` and `explanation`, select to copy/insert/replace.
 - [ ] Improve the showing of results.
 - [ ] Consider to cache translation results.
