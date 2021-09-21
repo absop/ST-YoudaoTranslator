@@ -8,7 +8,7 @@
           }
     },
     {
-        "caption": "Translators: Toggle debug",
+        "caption": "Translators: Toggle Debug",
         "command": "translators",
         "args": {"action": "toggle debug"}
     }
