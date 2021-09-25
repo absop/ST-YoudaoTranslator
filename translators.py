@@ -254,17 +254,22 @@ class YoudaoTranslation(TranslatorsCommand):
             Loger.pprint(data)
             Loger.done_msg = 'Failed!'
             response = requests.post(
-                apiurl, data=data, headers=headers, timeout=(1, 5))
+                apiurl, data=data, headers=headers, timeout=5.0)
             res_data = json.loads(response.content.decode('utf-8'))
             Loger.done_msg = 'Succeed.'
             Loger.print('youdao translation: succeed request')
             Loger.pprint(res_data)
         except requests.exceptions.ConnectionError:
             Loger.error(u'连接失败，请检查你的网络状态')
-        except requests.exceptions.ConnectTimeout:
-            Loger.error(u'连接超时，请检查你的网络状态')
-        except Exception:
-            Loger.error(u'数据请求失败！')
+        except requests.exceptions.Timeout:
+            Loger.error(u'连接超时，请检查你的网络状况')
+        except requests.exceptions.InvalidURL:
+            Loger.error(u'无效的URL，请检查你的"api_url"设置')
+        except requests.exceptions.HTTPError:
+            Loger.error(u'HTTP请求错误')
+        except Exception as e:
+            Loger.print(e)
+            Loger.error(u'很抱歉，由于未知原因，暂时无法为您翻译')
         else:
             self.display(words, res_data)
 
