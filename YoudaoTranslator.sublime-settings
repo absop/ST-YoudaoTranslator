@@ -1,0 +1,34 @@
+{
+    "debug": false,
+
+    // The words to be displayed in the menu, the macro `${text}`
+    // will be replaced with the selected text content.
+    // If the length of the selected paragraph large than 30,
+    // only the fitst 30 characters will be displayed,
+    // the rest is replaced with `...`
+    "caption": "有道翻译",
+
+    // When there not words selected, auto select word?
+    "auto_select": true,
+
+    // Words separator characters, used to strip words
+    "word_separators": "|\\\n\f\t /:,;<>.+=-_~`'\"!@#$%^&*({[（《·：、，；。—￥！？…‘’“”》）]})",
+
+    // path to css file for mdpopups
+    "mdpopups.css": "Packages/YoudaoTranslator/mdpopups.css",
+
+    // Source language
+    "from": "auto",
+
+    // Target language
+    "to": "auto",
+
+    // The api url to be used, remain unchanged
+    "api_url": "http://openapi.youdao.com/api",
+
+    // Application id, can be got from: https://ai.youdao.com/
+    "app_key": "",
+
+    // Same as `app_key`
+    "app_secret": ""
+}
